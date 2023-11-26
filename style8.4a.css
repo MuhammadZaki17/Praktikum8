@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 550px;
+    background-color: blueviolet;
+}
+
+h1{
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+}
+
+.container2{
+    width: 85%;
+}
+
+header{
+    background-color: lawngreen;
+    display: flex;
+    height: 100px;
+}
+
+article{
+    background-color:white;
+    display: flex;
+    justify-content: start;
+    width: 75%;
+    height: 350px;
+}
+
+.container3{
+    display: flex;
+    justify-content: first baseline;
+}
+
+aside{
+    background-color: aqua;
+    width: 25%;
+}
+
+footer{
+    background-color:lawngreen;
+    display: flex;
+    height: 100px;
+}
+

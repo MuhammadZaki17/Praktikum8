@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    background-color: lawngreen;
+}
+
+header{
+    background-color: aqua;
+    width: 1150px;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 20px 33px 0px 15px;
+    border: 3px solid black;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    background-color: blue;
+    width: 15%;
+    height: 300px;
+    margin: 20px 20px 20px 17px;
+    border: 3px solid black;
+}
+
+article{
+    background-color: bisque;
+    width: 78%;
+    margin: 20px 0px 20px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+}
+
+footer{
+    background-color: aqua;
+    width: 1150px;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0px 35px 20px 15px;
+    border: 3px solid black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 120px 50px 30px 50px;
+    border:2px solid black;
+}
+
+.container2{
+    display: flex;
+    align-items: flex-end;
+}
